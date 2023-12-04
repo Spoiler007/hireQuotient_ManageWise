@@ -7,11 +7,11 @@ const Hero = () => {
   const imageRef = useRef(null)
   const { scrollYProgress } = useScroll({
     target: imageRef,
-    offset: ["0.3 1",null]
+    offset: ["0.3 1", null]
   });
   const dRotate = useScroll({
     target: imageRef,
-    offset: ["0.3 1","1 1"]
+    offset: ["0.3 1", "1 1"]
   }).scrollYProgress;
   const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.9, 1.09])
   const rotateProgress = useTransform(dRotate, [0, 1], [-20, 0])
