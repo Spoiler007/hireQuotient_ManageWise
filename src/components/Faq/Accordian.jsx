@@ -7,7 +7,7 @@ const Accodion = () => {
     const [data, setData] = useState(questions);
     return (
         <>
-            <div className="flex  gap-32  py-40 w-[80%] mx-auto">
+            <div id='faq' className="grid grid-cols-1 2xl:grid-cols-2 gap-32  py-40 2xl:w-[80%] w-[90%]  mx-auto">
                 <div className='flex flex-col gap-8 w-[40%] '>
                     <div className='font-outfit text-[18px] font-semibold border-[1px] border-[#EDEDFA] w-[90px] justify-center items-center px-3 flex gap-1 rounded-[8px]'><p >🙋‍♀️</p><p className='text-[#8247FF] font-outfit '>FAQ</p></div>
                     <p className='font-outfit text-6xl'>Need <span className='text-[#FE8162]'>Answer?</span></p>

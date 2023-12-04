@@ -8,9 +8,9 @@ import prof4 from '../../public/prof4.webp'
 
 const Testimonial = () => {
     return (
-        <div className=''>
+        <div id='testimonials' className=''>
             <div className='w-[80%] mx-auto flex flex-col gap-5 mt-40'> 
-            <p className='text-[#8247FF] font-outfit text-xs border-[1px] border-[#8247ff33] rounded-lg w-28 py-1 flex '><span>🧡</span> TESTIMONIALS</p>
+            <p className=' text-[#8247FF] font-outfit text-xs border-[1px] border-[#8247ff33] rounded-lg w-28 py-1 flex '><span>🧡</span> TESTIMONIALS</p>
             
             <p className='font-outfit font-bold text-6xl'>Hear from our<span className='text-[#FE8162] '> Satisfied</span> clients</p>
             <p className='text-[#767575] font-inter w-[50%]  text-xl font-semibold'>Discover why our clients love working with us. Read their testimonials and learn how we has helped businesses.</p>
@@ -19,7 +19,7 @@ const Testimonial = () => {
 
 
             <Marquee  direction='right'>
-                <div className=" flex w-[1700px] ml-10 gap-10 mt-20">
+                <div className=" flex w-[1700px] ml-10 gap-10 my-4 mt-20">
 
                     <div className=' border-2 border-[#EDEDFA] rounded-3xl flex flex-col w-1/4 px-5  py-10 gap-10'>
                         <p className='font-inter text-[#1c1c1c] text-lg font-semibold   w-[80%]'> "Using this product has been a game-changer for our team. The collaboration features and intuitive interface have greatly improved our productivity."

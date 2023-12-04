@@ -11,7 +11,7 @@ const Navbar = () => {
     },
     {
         name: "FAQ",
-        link: "#FAQ"
+        link: "#faq"
     },
     {
         name: "Pricing",
@@ -47,10 +47,10 @@ const Navbar = () => {
                             <div className="logo flex items-center justify-center font-bold text-lg font-[sans-serif]"><img src="/logo.webp" alt="logo" height={50} width={50} className="mr-2" /> <span className="md:inline">ManageWise</span></div>
                             <div className="md:hidden text-3xl cursor-pointer" onClick={handleNavbarClose}><FiX /></div>
                         </div>
-                        <div className="flex flex-col items-center justify-center gap-6 pt-8">
+                        <div className="flex flex-col items-center justify-center gap-6  pt-8">
                             {
                                 menus.map((menu) => {
-                                    return <div key={menu.name}>{menu.name}</div>
+                                    return <a key={menu.name} href={menu.link}>{menu.name}</a>
                                 })
                             }
                             <div className="bg-[#8247ff] w-full text-center text-white rounded-xl px-5 py-4 mt-6 font-outfit border border-transparent hover:border hover:border-black">Buy Template</div>
@@ -60,10 +60,10 @@ const Navbar = () => {
                     <motion.div className="bg-[#fdf2ec] flex items-center justify-between py-4 px-6" key={"close"}
                     >
                         <div className="logo flex items-center justify-center font-bold text-lg font-[sans-serif]"><img src="/logo.webp" alt="logo" height={50} width={50} className="mr-2" /> <span className="md:inline">ManageWise</span></div>
-                        <div className="gap-8  items-center hidden md:flex">
+                        <div className="2xl:gap-8  items-center hidden md:flex">
                             {
                                 menus.map((menu) => {
-                                    return <div key={menu.name} className="flex items-center gap-6 mr-10 cursor-pointer hover:text-blue-400 duration-300 ease-in-out transition-all"><div className="h-1 w-1 bg-gray-300"></div>{menu.name}</div>
+                                    return <a key={menu.name} href={menu.link} className="flex items-center gap-6 mr-10 cursor-pointer hover:text-blue-400 duration-300 ease-in-out transition-all"><div className="h-1 w-1 bg-gray-300"></div>{menu.name}</a>
                                 })
                             }
                             <div className="bg-white rounded-xl px-5 py-2 font-bold font-outfit border border-transparent hover:border hover:border-black">Buy Template</div>

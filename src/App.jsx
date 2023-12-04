@@ -6,6 +6,8 @@ import Explore from './components/Explore'
 import Accordian from './components/Faq/Accordian'
 import Pricing from './components/Pricing'
 import Testimonial from './components/Testimonial'
+import Integration from './components/Integration'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -15,9 +17,11 @@ function App() {
     <Hero/>
     <Features/>
     <Explore/>
+    <Integration/>
 <Accordian/>
 <Pricing/>
 <Testimonial/>
+<Footer/>
     </>
   )
 }

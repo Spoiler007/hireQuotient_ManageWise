@@ -54,9 +54,9 @@ const Hero = () => {
             transition={{ ease: "easeInOut", duration: 1.5 }}
             animate={{
               top: [null, -8, 0]
-            }} className='relative gap-10 flex'>
-            <button className='bg-[#8247ff]  py-3 px-8 text-white font-outfit rounded-xl text-xl'>Get Started</button>
-            <button className='bg-white  py-3 px-8  font-outfit flex items-center gap-2 rounded-xl text-xl font-semibold'>Watch Demo <MdPlayCircle /></button>
+            }} className='relative gap-10 flex flex-col md:flex-row w-[100%] md:justify-center'>
+            <button className='bg-[#8247ff]  py-3 px-8 text-white font-outfit rounded-xl text-xl '><span className='hover:translate-x-5'>Get Started</span></button>
+            <button className='bg-white  py-3 px-8  font-outfit flex text-center justify-center items-center gap-2 rounded-xl text-xl font-semibold border-[1px] border-gray-300 hover:border-black'>Watch Demo <MdPlayCircle /></button>
           </motion.div>
         </div>
         <div className='pt-16 pb-20'>

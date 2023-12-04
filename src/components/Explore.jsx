@@ -6,7 +6,7 @@ import { HiFire } from "react-icons/hi";
 
 const Explore = () => {
     return (
-        <div className=' pt-[120px] bg-black'>
+        <div className=' pt-[120px] bg-black pb-20'>
 
             <div className='w-[80%] mx-auto '>
                 <div className='flex border-black bg-white w-40 p-1 rounded-[10px] items-center  border-2 gap-2'>🤩 <p className='text-[#8247FF] font-outfit font-semibold text-xm'> AND MORE...</p></div>
@@ -18,7 +18,7 @@ const Explore = () => {
 
 
 
-            <div  className='w-[80%] mx-auto grid grid-cols-3 gap-[50px] mt-[70px]'>
+            <div  className='w-[80%] mx-auto grid grid-cols-1 2xl:grid-cols-3 gap-[50px] mt-[70px]'>
                 <div className='bg-[#212121]  flex flex-col justify-center items-center text-center rounded-[20px] gap-3 py-[40px] px-[20px]'>
                 <p className='text-4xl  p-[15px] mx-auto bg-[#8247FF] w-18 rounded-3xl flex text-white'><CiMobile2 className='m-auto'/></p>
                 <p className='font-outfit w-[80%] text-[#FDF2EC] text-[25px] font-semibold'>Cross-Platform Compatibility</p>

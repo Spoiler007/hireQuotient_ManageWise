@@ -5,19 +5,19 @@ import { IoMdCheckmark } from "react-icons/io";
 
 const Pricing = () => {
     return (
-        <div className='flex flex-col gap-14'>
+        <div id='pricing' className='flex flex-col gap-14'>
 
             <div className='flex flex-col justify-center text-center gap-5'>
                 <p className='text-[#8247FF] font-outfit text-xs border-[1px] border-[#8247ff33] rounded-lg w-20 py-1 mx-auto'>💲 PRICING</p>
-                <p className='font-outfit text-5xl'>Select your ideal<span className='text-[#FE8162] '> Pricing</span> plan</p>
+                <p className='font-outfit text-5xl w-[90%] mx-auto'>Select your ideal<span className='text-[#FE8162] '> Pricing</span> plan</p>
                 <p className='text-[#767575] font-inter w-[28%] mx-auto text-md font-semibold'>At Manage Wise, we believe in providing you with pricing plans that adapt to your unique needs.</p>
             </div>
 
 
 
-            <div className='flex justify-around w-[85%] mx-auto'>
+            <div className='2xl:grid 2xl:grid-col-1  grid-cols-3 justify-around w-[85%] gap-7 mx-auto'>
 
-                <div className=' px-8 pr-24 py-8 rounded-3xl bg-[#EDEDFA] flex flex-col gap-10'>
+                <div className=' px-12 pr-24 py-8 rounded-3xl bg-[#EDEDFA] flex flex-col gap-10 2xl:flex-col w-fit mt-10 mx-auto'>
                     <div className='flex flex-col gap-5'>
                         <p className='text-[#FE8162] font-outfit border-2  w-16 rounded-[10px] text-center bg-white'>FREE</p>
 
@@ -35,7 +35,7 @@ const Pricing = () => {
                     </div>
 
 
-                    <div className='border-none w-32 py-2 px-4 mt-6  bg-white rounded-lg '>
+                    <div className='border-none w-32 py-2 px-4  bg-white mt-20 rounded-lg '>
                         <button className=' text-black mx-auto flex font-outfit font-semibold '>Get started</button>
                     </div>
 
@@ -43,12 +43,12 @@ const Pricing = () => {
 
 
 
-                <div className=' px-8 pr-24 py-8  rounded-3xl bg-black flex flex-col gap-10'>
+                <div className=' px-8 pr-24 py-8  rounded-3xl bg-black flex flex-col gap-10  2xl:flex-col w-fit mt-10 mx-auto '>
                     <div className='flex flex-col gap-5 '>
-                        <p className='text-[#FE8162] font-outfit border-2  w-24 rounded-[10px] text-center bg-white'>STANDARD</p>
+                        <p className='text-[#FE8162] font-outfit border-2  w-24  rounded-[10px] text-center bg-white'>STANDARD</p>
 
-                        <div className='flex items-center gap-2'>
-                            <p className='text-5xl text-white'>$25</p>
+                        <div className='flex items-center gap-2 '>
+                            <p className='text-5xl  text-white'>$25</p>
                             <p className='mt-4 text-white'>/month</p>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ const Pricing = () => {
 
 
 
-                <div className=' px-8 pr-24 py-8 rounded-3xl bg-[#EDEDFA] flex flex-col gap-10'>
+                <div className=' px-8 pr-24 py-8 rounded-3xl bg-[#EDEDFA] flex flex-col gap-10  2xl:flex-col w-fit mt-10 mx-auto'>
                     <div className='flex flex-col gap-5'>
                         <p className='text-[#FE8162] font-outfit border-2  w-24 rounded-[10px] text-center bg-white'>BUSINESS</p>
 
@@ -90,7 +90,7 @@ const Pricing = () => {
                     </div>
 
 
-                    <div className='border-none w-32 py-2 px-4 mt-6  bg-white rounded-lg '>
+                    <div className='border-none w-32 py-2 px-4 mt-20  bg-white rounded-lg '>
                         <button className=' text-black mx-auto flex font-outfit font-semibold '>Get started</button>
                     </div>
 
